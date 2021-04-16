@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/fylo-data-storage-component/static/js/main.d2923028.chunk.js",
+    "main.js.map": "/fylo-data-storage-component/static/js/main.d2923028.chunk.js.map",
+    "runtime-main.js": "/fylo-data-storage-component/static/js/runtime-main.848bfeaa.js",
+    "runtime-main.js.map": "/fylo-data-storage-component/static/js/runtime-main.848bfeaa.js.map",
+    "static/js/2.b7fc1dd0.chunk.js": "/fylo-data-storage-component/static/js/2.b7fc1dd0.chunk.js",
+    "static/js/2.b7fc1dd0.chunk.js.map": "/fylo-data-storage-component/static/js/2.b7fc1dd0.chunk.js.map",
+    "index.html": "/fylo-data-storage-component/index.html",
+    "static/js/2.b7fc1dd0.chunk.js.LICENSE.txt": "/fylo-data-storage-component/static/js/2.b7fc1dd0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.848bfeaa.js",
+    "static/js/2.b7fc1dd0.chunk.js",
+    "static/js/main.d2923028.chunk.js"
+  ]
+}
