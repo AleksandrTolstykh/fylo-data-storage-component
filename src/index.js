@@ -1,8 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './components/App';
+
+document.body.style.backgroundColor = 'hsl(229, 57%, 11%)';
+document.body.style.backgroundImage = 'url(images/bg-desktop.png)';
+document.body.style.backgroundRepeat = 'no-repeat';
+document.body.style.backgroundPosition = 'bottom';
+document.body.style.backgroundSize = 'contain';
+document.body.style.height = '100vh';
+
+window.onresize = function(event) {
+    if (event.target.innerWidth < 600) {
+      document.body.style.backgroundImage = 'url(images/bg-mobile.png)';
+      document.body.style.backgroundSize = 'cover';
+    } else {
+      document.body.style.backgroundImage = 'url(images/bg-desktop.png)';
+      document.body.style.backgroundSize = 'contain';
+    }
+};
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,8 +25,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
